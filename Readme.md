@@ -1,7 +1,10 @@
 # Личный проект «Кекстаграм»
 
-* Студент: [Андрей Кузин ](https://up.htmlacademy.ru/javascript-individual/2/user/2566453).
-* Наставник: `Дмитрий Беллавин`.
+
+* Студент: [Андрей Кузин](https://up.htmlacademy.ru/javascript-individual/2/user/2566453).
+* Наставник: [Дмитрий Беллавин](https://htmlacademy.ru/profile/bellavin).
+
+
 
 ---
 
