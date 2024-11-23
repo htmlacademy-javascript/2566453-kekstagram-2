@@ -1,7 +1,7 @@
 let isLenOk = function (str, maxLength) {
   return str.length <= maxLength;
 }
-isLenOk('проверяемая строка', 20);
+
 
 // 1 задание
 
