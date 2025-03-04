@@ -1,13 +1,13 @@
-let CommetIdValue = (function(){
+const CommetIdValue = (function(){
   let value = 0;
   return function(){
     value++;
     return value;
-  }
+  };
 })();
 
 let NameValue = function(){
-  let comment = ['Борис', 'Владимир', 'Дмитрий']
+  let comment = ['Борис', 'Владимир', 'Дмитрий'];
   return comment[Math.floor(Math.random() * comment.length)];
 }
 
@@ -42,8 +42,8 @@ for(let i = 0; i < 25; i++){
       name: NameValue()
   }
     });
-  base.push(user)
+  base.push(user);
   }
-  console.log(base)
+  console.log(base);
 }
-ObjectGenerator()
+ObjectGenerator();
