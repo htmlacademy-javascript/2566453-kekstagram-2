@@ -39,10 +39,9 @@ const ObjectGenerator = function(){
         avatar: 'img/avatar-' + IdValue() + '.svg',
         message: MessageValue(),
         name: NameValue()
-    }
-  });
-  base.push(user);
+      }
+    });
+    base.push(user);
   }
-  console.log(base);
 }
 ObjectGenerator();
