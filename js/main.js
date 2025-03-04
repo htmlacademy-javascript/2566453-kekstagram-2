@@ -6,21 +6,21 @@ const CommetIdValue = (function(){
   };
 })();
 
-let NameValue = function(){
-  let comment = ['Борис', 'Владимир', 'Дмитрий'];
+const NameValue = function(){
+  const comment = ['Борис', 'Владимир', 'Дмитрий'];
   return comment[Math.floor(Math.random() * comment.length)];
-}
+};
 
-let MessageValue = function(){
-  let comment = ['Всё отлично!', 'Когда вы делаете фотографию, хорошо бы убирать палец из кадра. В конце концов это просто непрофессионально.']
+const MessageValue = function(){
+  const comment = ['Всё отлично!', 'Когда вы делаете фотографию, хорошо бы убирать палец из кадра. В конце концов это просто непрофессионально.'];
   return comment[Math.floor(Math.random() * comment.length)];
-}
+};
 
-let IdValue = function(){
+const IdValue = function(){
   return Math.floor(Math.random() * 6) + 1;
-}
+};
 
-let CountLike = function(){
+const CountLike = function(){
   return Math.floor(Math.random() * (200 - 15 + 1)) + 15;
   }
 
