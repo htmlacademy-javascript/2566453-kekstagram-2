@@ -31,17 +31,17 @@ const ObjectGenerator = function(){
   for(let i = 0; i < 25; i++){
     const user = new Object({
       id: i + 1,
-      url: 'photos/' + (i + 1) + '.jpg',
+      url: `photos/${i + 1}.jpg`,
       description: 'Момент, запечатленный во времени, отражающий красоту и уникальность мира вокруг нас, где каждый элемент и деталь рассказывают свою собственную историю и вызывают эмоции, которые остаются с нами навсегда.',
       likes: CountLike(),
       comments: {
         id: CommetIdValue(),
-        avatar: 'img/avatar-' + IdValue() + '.svg',
+        avatar: `img/avatar-${IdValue()}.svg`,
         message: MessageValue(),
         name: NameValue()
       }
     });
     base.push(user);
   }
-}
+};
 ObjectGenerator();
