@@ -22,15 +22,14 @@ const IdValue = function(){
 
 const CountLike = function(){
   return Math.floor(Math.random() * (200 - 15 + 1)) + 15;
-  }
+};
 
-let ObjectGenerator = function(){
+const ObjectGenerator = function(){
 
-//генерирует 25 объектов, id, url
-let base = [];
+const base = [];
 
 for(let i = 0; i < 25; i++){
-  let user = new Object({
+  const user = new Object({
     id: i+1,
     url: 'photos/' + (i + 1) + '.jpg',
     description: "Момент, запечатленный во времени, отражающий красоту и уникальность мира вокруг нас, где каждый элемент и деталь рассказывают свою собственную историю и вызывают эмоции, которые остаются с нами навсегда.",
